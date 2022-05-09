@@ -29,5 +29,5 @@ Accesses:
 ### Backlog
 
 * [Part I - Prerequisites](c6-part-i-prerequisites.md)
-* [Part II - In house Kubernetes](c6-part-ii-in-house-kubernetes.md)
+* [Part II - In house Kubernetes](c6-part-ii-in-house-kubernetes-iict.md)
 * [Part III - Kubernetes on GCP](c6-part-iii-kubernetes-on-gcp.md)
