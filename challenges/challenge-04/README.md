@@ -1,10 +1,17 @@
 # Challenge 04
 
+
+
+
+
 {% hint style="info" %}
 Delivery:
 
-* Thursday, the 12th of May, 6 pm
+* Part I: Thursday, the 5th of May, 6 pm
+* AWS Infra
 * Technical doc
+
+
 {% endhint %}
 
 ### Challenge's targets:
@@ -17,4 +24,7 @@ The first challenge's part will help you to be ready for this challenge.
 
 ### Backlog
 
-You will find everything you need on [Cyberlearn](https://cyberlearn.hes-so.ch/mod/assign/view.php?id=1684948).
+* [Part I - Set up dev tools](broken-reference)
+* [Part II - Create a simple web application](c4-tutorial/)
+* [Part III - Local deployment](broken-reference)
+* [Part V - Google App Engine Deployment](broken-reference)&#x20;
