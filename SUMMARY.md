@@ -30,6 +30,6 @@
     * [C4 - Tutorial](challenges/challenge-04/c4-tutorial/README.md)
       * [GCP Coupon for Google Engine](challenges/challenge-04/c4-tutorial/gcp-coupon-for-google-engine.md)
   * [Challenge 05](challenges/challenge-05/README.md)
-    * [Step 01 - Prerequisites](challenges/challenge-05/step-01-prerequisites.md)
+    * [C5 - Step 01 - Prerequisites](challenges/challenge-05/c5-step-01-prerequisites.md)
 * [Quiz](quiz.md)
 * [In progress](in-progress.md)
