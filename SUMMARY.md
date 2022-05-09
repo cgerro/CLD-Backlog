@@ -32,7 +32,7 @@
   * [Challenge 05](challenges/challenge-05.md)
   * [Challenge 06](challenges/challenge-06/README.md)
     * [C6 - Part I - Prerequisites](challenges/challenge-06/c6-part-i-prerequisites.md)
-    * [C6 - Part II - In-house Kubernetes (IICT)](challenges/challenge-06/c6-part-ii-in-house-kubernetes-iict.md)
+    * [C6 - Part II - In-house Kubernetes (IICT)](challenges/challenge-06/c6-part-ii-in-house-kubernetes.md)
     * [C6 - Part III - Kubernetes on GCP](challenges/challenge-06/c6-part-iii-kubernetes-on-gcp.md)
     * [C6 - Notion of done](challenges/challenge-06/notion-of-done.md)
     * [C4 - Notion of done](challenges/challenge-06/notion-of-done-1.md)
