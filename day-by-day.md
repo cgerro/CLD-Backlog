@@ -6,6 +6,49 @@ description: >-
 
 # Day by day
 
+### Monday, 16 MAY 2022
+
+Theory
+
+* Quiz PaaS (will be available the 16th)
+* [Storage as a Service](https://cyberlearn.hes-so.ch/pluginfile.php/3796944/mod\_resource/content/6/CLD%20Lc05%20Storage%20as%20a%20service%20and%20NoSQL.pdf)
+
+Labo
+
+* Challenge 06 - Kubernetes - [Part I](challenges/challenge-06/c6-part-i-prerequisites.md) and [Part II](challenges/challenge-06/c6-part-iii-kubernetes-on-gcp.md)
+
+### Thursday, 12 MAY 2022
+
+{% hint style="info" %}
+6pm : Deliver Challenge 04 - GAE
+{% endhint %}
+
+### Monday, 9 MAY 2022
+
+Theory
+
+* [PaaS](https://cyberlearn.hes-so.ch/pluginfile.php/3796941/mod\_resource/content/5/CLD%20Lc04%20Platform%20as%20a%20Service.pdf)
+  * [Request Handler](https://cyberlearn.hes-so.ch/pluginfile.php/3796941/mod\_resource/content/5/CLD%20Lc04%20Platform%20as%20a%20Service.pdf)
+  * [How to choice the good environnement](https://cyberlearn.hes-so.ch/pluginfile.php/3796941/mod\_resource/content/5/CLD%20Lc04%20Platform%20as%20a%20Service.pdf)
+  * [Autoscaling strategy](https://cyberlearn.hes-so.ch/pluginfile.php/3796941/mod\_resource/content/5/CLD%20Lc04%20Platform%20as%20a%20Service.pdf)
+
+Labo
+
+* [End of Challenge 04](https://cyberlearn.hes-so.ch/mod/assign/view.php?id=1684948)
+* Intro Challenge 06
+
+### Monday, 2 MAY 2022
+
+Theory
+
+{% hint style="info" %}
+Exam 1 (on Cyberlearn)
+{% endhint %}
+
+Labo
+
+* Challenge 04 - Part I + Part II + Part III (on [cyberlearn](https://cyberlearn.hes-so.ch/mod/assign/view.php?id=1684948))
+
 ### Monday, 25 APR 2022
 
 {% hint style="info" %}
@@ -15,10 +58,6 @@ description: >-
 * RDS can be restarted if needed.
 * Autoscaling permission for all teams.
 {% endhint %}
-
-Daily
-
-* Review Trello Backlog
 
 Theory
 
@@ -33,14 +72,10 @@ Labo
 ### Thursday, 14 APR 2022
 
 {% hint style="info" %}
-6pm : Your AWS access will be deactivated and the infratructure unreacheable.
+6pm: Your AWS access will be deactivated and the infrastructure unreachable.
 {% endhint %}
 
 ### **Monday, 11 APR 2022**
-
-**Daily**
-
-* [Review Trello Backlog](https://trello.com/b/TuI9lOxd/cld)
 
 **Theory**
 
@@ -54,7 +89,7 @@ Labo
 
 ### Thursday, 8 APR 2022
 
-* [6pm: Delivery for Challenge 02](challenges/challenge-02/)
+* [6 pm: Delivery for Challenge 02](challenges/challenge-02/)
 
 ### Monday, 4 APR 2022
 
