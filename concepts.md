@@ -28,8 +28,14 @@ The official sources to study for your exam are published on this [Moodle](https
 * [Gestion des sessions et loadbalancer](https://docs.aws.amazon.com/fr\_fr/elasticloadbalancing/latest/classic/elb-sticky-sessions.html)
 * [Quiz](quiz.md)
 
-### 04 - Platform as a Service
+### 04 Platform as a Service
 
 * [Moodle](https://cyberlearn.hes-so.ch/mod/resource/view.php?id=1684918)
 * [Google Documentation](https://cloud.google.com/appengine)
-* Quiz not available yet
+* Quiz is not available yet
+
+### 05 Container cluster management and orchestration
+
+* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796954/mod\_resource/content/4/CLD%20Lc06%20Container%20cluster%20mgmt%20and%20orchestration.pdf)
+* [Kubernetes Documentation](https://kubernetes.io/fr/docs/home/)
+* Quiz  is not available yet
