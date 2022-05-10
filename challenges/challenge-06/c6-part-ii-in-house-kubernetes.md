@@ -14,6 +14,10 @@
 * To test that you can speak with the cluster try the command listing all nodes available. You should have something like that:
 
 ```shell
+[Request]
+kubectl get nodes
+
+[Response]
 NAME           STATUS   ROLES                      AGE    VERSION
 10.193.72.41   Ready    controlplane,etcd,worker   438d   v1.19.3
 10.193.72.42   Ready    controlplane,worker        438d   v1.19.3
