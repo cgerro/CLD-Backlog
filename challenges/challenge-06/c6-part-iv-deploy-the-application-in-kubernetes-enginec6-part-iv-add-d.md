@@ -10,13 +10,11 @@ Log in to the [Google Cloud console](http://console.cloud.google.com/). Navigate
 
 Go to the [Google Kubernetes Engine (GKE) console](https://console.cloud.google.com/kubernetes/). If necessary, enable the Kubernetes Engine API. Then create a cluster.
 
-```
 * Choose a GKE Standard cluster.
 * Give it a name of the form gke-cluster-1
 * Select a region close to you.
 * Set the number of nodes to 4.
 * Keep the other settings at their default values.
-```
 
 ### Deploy the application on the cluster
 
@@ -43,6 +41,10 @@ $ kubectl config use-context <context>
 On the Minikube cluster we did not have the possibility to expose a service on an external port, that is why we did not create a Service for the Frontend. Now, with the GKE cluster, we are able to do that.
 
 Using the redis-svc.yaml file as an example, create the frontend-svc.yaml configuration file for the Frontend Service.
+
+{% file src="../../.gitbook/assets/redis-svc.yaml" %}
+
+
 
 Unlike the Redis and API Services the Frontend needs to be accessible from outside the Kubernetes cluster as a regular web server on port 80.
 

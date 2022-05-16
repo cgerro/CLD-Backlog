@@ -11,7 +11,7 @@ description: This page describes the Part I of the Challenge 3
 
 ### Step 1 - JMeter
 
-1. Download and install on your local machine the JMeter tool from [http://jmeter.apache.org/](http://jmeter.apache.org).
+1. Download and install on your local machine the JMeter tool from [http://jmeter.apache.org/](http://jmeter.apache.org/).
 2. Open two terminal windows side-by-side and, using SSH, log into each instance. Bring up a continuous display of the Apache access log by running the command **sudo tail -F /var/log/apache2/access.log**.
 3. Using the AWS console, enable detailed (1-minute interval) monitoring of the two instances: Select an instance and click on the **Monitoring** tab. Click on **Enable Detailed Monitoring**.
 4. Consult the JMeter documentation [https://jmeter.apache.org/usermanual/build-web-test-plan.html](https://jmeter.apache.org/usermanual/build-web-test-plan.html) and create a simple test plan. Specify the load balancer as the target for the HTTP requests. Run a test.
@@ -20,7 +20,7 @@ description: This page describes the Part I of the Challenge 3
 
 ### Step 2 - Stress
 
-1. Setup [htop](https://htop.dev) and [stress](http://manpages.ubuntu.com/manpages/focal/man1/stress.1.html) on your drupal instance.
+1. Setup [htop](https://htop.dev/) and [stress](http://manpages.ubuntu.com/manpages/focal/man1/stress.1.html) on your drupal instance.
 2. Stress your instance and observe it with htop.
 3. Observe the monitoring view on the AWS Console.
 
