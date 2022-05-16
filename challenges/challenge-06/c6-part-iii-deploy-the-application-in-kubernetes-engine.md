@@ -1,4 +1,4 @@
-# C6 - Part III - Deploy the application in Kubernetes EngineC6 - Part IV - Add d
+# C6 - Part III - Deploy the application in Kubernetes Engine
 
 In this part you will deploy the application in the public cloud service Google Kubernetes Engine (GKE).
 
@@ -14,6 +14,14 @@ Go to the [Google Kubernetes Engine (GKE) console](https://console.cloud.google.
 * Give it a name of the form gke-cluster-1
 * Select a region close to you.
 * Set the number of nodes to 4.
+
+{% hint style="info" %}
+Proceed like this:
+
+* Initialize your cluster with 3 nodes (1 node in each zone)
+* Once the cluster is set, update the number to 4 nodes.
+{% endhint %}
+
 * Keep the other settings at their default values.
 
 ### Deploy the application on the cluster
