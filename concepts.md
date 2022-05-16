@@ -25,7 +25,9 @@ The official sources to study for your exam are published on this [Moodle](https
 
 * [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796939/mod\_resource/content/7/CLD%20Lc03%20Scalable%20apps%20on%20IaaS.pdf)
 * [Aws Documentation](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
-* [Gestion des sessions et loadbalancer](https://docs.aws.amazon.com/fr\_fr/elasticloadbalancing/latest/classic/elb-sticky-sessions.html)
+  * [Gestion des sessions et loadbalancer](https://docs.aws.amazon.com/fr\_fr/elasticloadbalancing/latest/classic/elb-sticky-sessions.html)
+  * [Burstable performances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html)
+  * [Standby instance](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-enter-exit-standby.html)
 * [Quiz](quiz.md)
 
 ### 04 Platform as a Service

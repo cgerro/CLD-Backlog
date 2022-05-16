@@ -35,6 +35,7 @@
     * [C6 - Part I - Prerequisites](challenges/challenge-06/c6-part-i-prerequisites.md)
     * [C6 - Part II - In-house Kubernetes (IICT)](challenges/challenge-06/c6-part-ii-in-house-kubernetes.md)
     * [C6 - Part III - Kubernetes on GCP](challenges/challenge-06/c6-part-iii-kubernetes-on-gcp.md)
+    * [C6 - Part IV - Deploy the application in Kubernetes EngineC6 - Part IV - Add d](challenges/challenge-06/c6-part-iv-deploy-the-application-in-kubernetes-enginec6-part-iv-add-d.md)
     * [C6 - Notion of done](challenges/challenge-06/notion-of-done.md)
 * [Quiz](quiz.md)
 * [In progress](in-progress.md)
