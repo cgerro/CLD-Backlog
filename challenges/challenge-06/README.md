@@ -39,5 +39,6 @@ Additionnal documentations
 ### Backlog
 
 * [Part I - Prerequisites](c6-part-i-prerequisites.md)
-* [Part II - In house Kubernetes](c6-part-ii-in-house-kubernetes-iict-kubernetes-cluster.md)
-* [Part III - Kubernetes on GCP](broken-reference)
+* [Part II - In house Kubernetes](c6-part-ii-in-house-kubernetes.md)
+* [Part III - Deploy the application in Kubernetes Engine](c6-part-iii-deploy-the-application-in-kubernetes-engine.md)
+* [Part IV - Add deployments and exercise resilience](c6-part-iv-add-deployments-and-exercise-resilience.md)
