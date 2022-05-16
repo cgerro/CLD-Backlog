@@ -31,6 +31,12 @@ NAME           STATUS   ROLES                      AGE    VERSION
 
 1. Run the following commands to deploy redis
 
+{% file src="../../.gitbook/assets/redis-pod.yaml" %}
+
+{% file src="../../.gitbook/assets/redis-svc.yaml" %}
+
+
+
 ```shell
 kubectl create -f redis-svc.yaml -n cldgrpXX
 kubectl create -f redis-pod.yaml -n cldgrpXX
@@ -41,6 +47,12 @@ kubectl create -f redis-pod.yaml -n cldgrpXX
 #### Deploy the ToDo-API Service and Pod
 
 Using the `redis-svc.yaml` file as example and information from `api-pod.yaml`, create the `api-svc.yaml` configuration file for the API Service. The Service has to expose port 8081 and connect to the port of the API Pod.
+
+{% file src="../../.gitbook/assets/api-pod.yaml" %}
+
+
+
+
 
 Be careful with the indentation of the YAML files. If your code editor has a YAML mode, enable it.
 
@@ -82,5 +94,7 @@ Now you should be able to reach your app with the _EXTERNAL-IP_ of the frontend 
 
 ### Deliverables <a href="#deliverables" id="deliverables"></a>
 
-Document any difficulties you faced and how you overcame them. Copy the object descriptions into the lab report (if they are unchanged from the previous task just say so).
+* Document any difficulties you faced and how you overcame them.
+* Join the setting files (.yaml) as attachments
+* Compressed them in a .zip archive and sent it through the private teams channel.
 
