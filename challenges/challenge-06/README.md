@@ -26,6 +26,12 @@ Accesses:
 * For the "in house" Kubernetes, check your private team channel.
 * For GCP, same credentials as for the [Challenge 04](../challenge-04/c4-tutorial/#get-gcp-coupon).
 
+Schema
+
+![](../../.gitbook/assets/todoapp.png)
+
+
+
 Additionnal documentations
 
 * [User Guide explaining the main concepts](https://kubernetes.io/docs/user-guide/)
