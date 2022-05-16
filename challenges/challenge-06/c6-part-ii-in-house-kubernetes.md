@@ -24,8 +24,3 @@ NAME           STATUS   ROLES                      AGE    VERSION
 10.193.72.43   Ready    controlplane,worker        438d   v1.19.3
 10.193.72.44   Ready    worker                     438d   v1.19.3
 ```
-
-{% hint style="info" %}
-The new part will be available on the 15th of May
-{% endhint %}
-

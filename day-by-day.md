@@ -15,7 +15,7 @@ Theory
 
 Labo
 
-* Challenge 06 - Kubernetes - [Part I](challenges/challenge-06/c6-part-i-prerequisites.md) and [Part II](challenges/challenge-06/c6-part-iii-kubernetes-on-gcp.md)
+* Challenge 06 - Kubernetes - [Part I](challenges/challenge-06/c6-part-i-prerequisites.md) and [Part II](broken-reference)
 
 ### Thursday, 12 MAY 2022
 

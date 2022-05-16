@@ -1,4 +1,4 @@
-# C6 - Part IV - Deploy the application in Kubernetes EngineC6 - Part IV - Add d
+# C6 - Part III - Deploy the application in Kubernetes EngineC6 - Part IV - Add d
 
 In this part you will deploy the application in the public cloud service Google Kubernetes Engine (GKE).
 
