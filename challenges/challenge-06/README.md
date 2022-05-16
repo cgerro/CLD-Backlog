@@ -9,7 +9,7 @@ Delivery:
 
 * Thursday, the 19th of May, 6 pm
 * Technical doc
-* //TODO infra on Heig-vd's Kubernetes Infra
+* Result of your experimentation on IICT Kubnernetes Cluster
 {% endhint %}
 
 ### Challenge's targets:

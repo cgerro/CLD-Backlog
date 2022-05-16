@@ -80,3 +80,7 @@ Deploy and verify the Frontend-Service and Pod and verify that they are up and r
 
 Now you should be able to reach your app with the _EXTERNAL-IP_ of the frontend service.
 
+### Deliverables <a href="#deliverables" id="deliverables"></a>
+
+Document any difficulties you faced and how you overcame them. Copy the object descriptions into the lab report (if they are unchanged from the previous task just say so).
+
