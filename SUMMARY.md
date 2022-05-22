@@ -37,4 +37,6 @@
     * [C6 - Part III - Deploy the application in Kubernetes Engine](challenges/challenge-06/c6-part-iii-deploy-the-application-in-kubernetes-engine.md)
     * [C6 - Part IV - Add deployments and exercise resilience](challenges/challenge-06/c6-part-iv-add-deployments-and-exercise-resilience.md)
     * [C6 - Notion of done](challenges/challenge-06/notion-of-done.md)
+  * [Challenge 07](challenges/challenge-07/README.md)
+    * [C7 - Part I - Prerequisites](challenges/challenge-07/c7-part-i-prerequisites.md)
 * [Quiz](quiz.md)
