@@ -4,7 +4,6 @@
 * [Day by day](day-by-day.md)
 * [AWS SLA](aws-sla.md)
 * [Roadmap](roadmap.md)
-* [Workshops](workshops.md)
 * [Concepts](concepts.md)
 * [Challenges](challenges/README.md)
   * [Challenge 00](challenges/challenge-00/README.md)
@@ -40,4 +39,5 @@
     * [C6 - Notion of done](challenges/challenge-06/notion-of-done.md)
   * [Challenge 07](challenges/challenge-07/README.md)
     * [C7 - Part I - Prerequisites](challenges/challenge-07/c7-part-i-prerequisites.md)
+* [Workshops](workshops.md)
 * [Quiz](quiz.md)
