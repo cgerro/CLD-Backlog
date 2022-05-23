@@ -9,7 +9,7 @@ Your boss asks that you investigate, in a small group of colleagues, a cloud ser
 ### Introductions
 
 * Form a group of 5 students and declare it in Cyberlearn. To avoid schedule conflicts, all members of the group must be in the same class.
-* Select your preferred topic and a second and third choice. In Teams, channel _Cours_, tab _Workshop_, put your three choices into the column corresponding to your group. Put a value of `1` into the cell corresponding to your first choice, `2` for your second choice, `3` for your third choice. When all groups have declared their choices the professor will resolve any conflicts.
+* Select your preferred topic and a second and third choice. In Teams, _general_ channel, find  _Workshop file in files_, and put your three choices into the column corresponding to your group. Put a value of `1` into the cell corresponding to your first choice, `2` for your second choice, `3` for your third choice. When all groups have declared their choices the professor will resolve any conflicts.
 * Schedule for the remainder of the course, [see the roadmap](roadmap.md).
 
 ### Presentation arrangements
