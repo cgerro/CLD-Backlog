@@ -40,12 +40,14 @@ You may also use _kubectl get all_ repeatedly to see a list of all resources. Yo
 * What happens when you delete the Redis Pod?
 * How can you change the number of instances temporarily to 3? Hint: look for scaling in the deployment documentation
 * What autoscaling features are available? Which metrics are used?
-* How can you update a component? (see "Updating a Deployment" in the deployment documentation)What happens if you delete a Frontend or API Pod? How long does it take for the system to react?
+* How can you update a component? (see "Updating a Deployment" in the deployment documentation)What happens if you delete a Front-end or API Pod? How long does it take for the system to react?
 
-### (optional) - Put autoscaling in place and load-test it
+### (optional) - Put autoscalling in place and load-test it
 
-On the GKE cluster deploy autoscaling on the Frontend with a target CPU utilization of 30% and number of replicas between 1 and 4. Load-test using JMeter.
+On the GKE cluster deploy autoscalling on the Frontend with a target CPU utilization of 30% and number of replicas between 1 and 4. Load-test using JMeter.
 
 ### Deliverables
 
-Document your observations in the lab report. Document any difficulties you faced and how you overcame them. Copy the object descriptions into the lab report.
+* Document any difficulties you faced and how you overcame them.
+* Join the setting files (.yaml) as attachments
+* Compressed them in a .zip archive and sent it through the private teams channel.

@@ -26,7 +26,7 @@ Proceed like this:
 
 ### Deploy the application on the cluster
 
-Once the cluster is created, the GKE console will show a Connect button next to the cluster in the cluster list. Click on it. A dialog will appear with a command-line command. Copy/paste the command and execute it on your local machine. This will download the configuration info of the cluster to your local machine (this is known as a context). It also changes the current context of your _kubectl_ tool to the new cluster.
+Once the cluster is created, the GKE console will show a **Connect** button next to the cluster in the cluster list. Click on it. A dialog will appear with a command-line command. Copy/paste the command and execute it on your local machine. This will download the configuration info of the cluster to your local machine (this is known as a context). It also changes the current context of your _kubectl_ tool to the new cluster.
 
 To see the available contexts, type
 
@@ -44,40 +44,25 @@ Should you want to switch contexts, use
 $ kubectl config use-context <context>
 ```
 
-### Deploy the ToDo-Frontend Service
+### Deploy the ToDo-Application
 
-On the Minikube cluster we did not have the possibility to expose a service on an external port, that is why we did not create a Service for the Frontend. Now, with the GKE cluster, we are able to do that.
+Use the command `kubectl` to deploy the todo app on the GKE.
 
-Using the redis-svc.yaml file as an example, create the frontend-svc.yaml configuration file for the Frontend Service.
+The _frontend-svc.yaml_ will trigger the creation of a load balancer on GKE. This might take some minutes. You can monitor the creation of the load balancer using
 
-{% file src="../../.gitbook/assets/redis-svc.yaml" %}
-
-
-
-Unlike the Redis and API Services the Frontend needs to be accessible from outside the Kubernetes cluster as a regular web server on port 80.
-
-{% hint style="info" %}
-We need to change a configuration parameter. Our cluster runs on the GKE cloud and we want to use a GKE load balancer to expose our service.&#x20;
-
-
-
-Read the section ["Publishing Services - Service types" of the K8s documentation](https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services---service-types)&#x20;
-{% endhint %}
-
-Deploy the Service using _kubectl_.
-
-This will trigger the creation of a load balancer on GKE. This might take some minutes. You can monitor the creation of the load balancer using _kubectl describe_.
+> kubectl describe
 
 ### Verify the ToDo application
 
 Now you can verify if the ToDo application is working correctly.
 
 {% hint style="info" %}
-Find out the public URL of the Frontend Service load balancer using kubectl describe. Access the public URL of the Service with a browser. You should be able to access the complete application and create a new ToDo.
+* Find out the public URL of the Frontend Service load balancer using kubectl describe.&#x20;
+* Access the public URL of the Service with a browser. You should be able to access the complete application and create a new ToDo.
 {% endhint %}
 
 ### Deliverables
 
-Document any difficulties you faced and how you overcame them. Copy the object descriptions into the lab report (if they are unchanged from the previous task just say so).
-
-Take a screenshot of the cluster details from the GKE console. Copy the output of the kubectl describe command to describe your load balancer once completely initialized.
+* Document any difficulties you faced and how you overcame them.
+* Join the setting files (.yaml) as attachments
+* Compressed them in a .zip archive and sent it through the private teams channel.
