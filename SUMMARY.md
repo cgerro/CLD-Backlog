@@ -4,6 +4,7 @@
 * [Day by day](day-by-day.md)
 * [AWS SLA](aws-sla.md)
 * [Roadmap](roadmap.md)
+* [Workshops](workshops.md)
 * [Concepts](concepts.md)
 * [Challenges](challenges/README.md)
   * [Challenge 00](challenges/challenge-00/README.md)
