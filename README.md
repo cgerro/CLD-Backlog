@@ -7,5 +7,8 @@ description: >-
 # CLD
 
 * [Day by day](day-by-day.md)
-* [Moodle](https://cyberlearn.hes-so.ch/course/view.php?id=20706)
+* [Roadmap](roadmap.md)
+* [Concepts](concepts.md)
 * [Challenges](challenges/)
+* [Workshops](workshops.md)
+* [Quiz](quiz.md)
