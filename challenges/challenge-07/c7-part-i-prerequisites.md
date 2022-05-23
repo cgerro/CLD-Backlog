@@ -82,9 +82,11 @@ Setting up terraform (1.1.9) ...
 ### On macOS: Use the Homebrew package manager brew:
 
 #### Install the HashiCorp tap
+
 brew tap hashicorp/tap
 
 #### Install Terraform
+
 brew install hashicorp/tap/terraform
 
 ### Verify that Terraform is installed correctly by running:
@@ -101,15 +103,11 @@ Your version of Terraform is out of date! The latest version
 is 1.2.0. You can update by downloading from https://www.terraform.io/downloads.html
 ```
 
-## Create A COULD INFRASTRUCTURE ON GOOGLE COMPUTE ENGINE WITH TERRAFORM
+## Open and set google project
 
 ### Introduction
 
-In this task you will create a simple cloud infrastructure that consists of a single VM on Google Compute Engine. It will be managed by Terraform.
-
-This task is highly inspired from the following guide: [Get started with Terraform](https://cloud.google.com/docs/terraform/get-started-with-terraform).
-
-Create a new Google Cloud project. Save the project ID, it will be used later.
+In this task, you will create and set a google project (as well as for the previous challenge with Google App Engine).
 
 ### Create Google project
 
@@ -126,7 +124,5 @@ Enabling service [cloudapis.googleapis.com] on project [cldgrp99_labgce]...
 Operation "operations/acat.p2-755723429290-6ab67b23-a4ec-4d42-b173-a4b15ea9ff03" finished successfully.
 ```
 
-* [Enable billing](https://cloud.google.com/billing/docs/how-to/modify-project?hl=en_GB&_ga=2.198968175.-17430027.1634032196&_gac=1.119938554.1650551892.Cj0KCQjwgYSTBhDKARIsAB8KukutQk2FeBf9NuLa2s39o-ObVSYRbgVL3Fsj8NHmS6RPx-AilC1TrGAaAu-jEALw_wcB)
-
-
+* [Enable billing](https://cloud.google.com/billing/docs/how-to/modify-project?hl=en\_GB&\_ga=2.198968175.-17430027.1634032196&\_gac=1.119938554.1650551892.Cj0KCQjwgYSTBhDKARIsAB8KukutQk2FeBf9NuLa2s39o-ObVSYRbgVL3Fsj8NHmS6RPx-AilC1TrGAaAu-jEALw\_wcB)
 * [Enable API](https://console.cloud.google.com/flows/enableapi?apiid=compute.googleapis.com)
