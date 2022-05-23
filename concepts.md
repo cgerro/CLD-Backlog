@@ -41,3 +41,7 @@ The official sources to study for your exam are published on this [Moodle](https
 * [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796954/mod\_resource/content/4/CLD%20Lc06%20Container%20cluster%20mgmt%20and%20orchestration.pdf)
 * [Kubernetes Documentation](https://kubernetes.io/fr/docs/home/)
 * Quiz  is not available yet
+
+### 06 - Storage as a Service
+
+* [Mongo Db Documentation](https://www.mongodb.com/databases/what-is-an-object-oriented-database)
