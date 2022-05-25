@@ -50,6 +50,6 @@ The official sources to study for your exam are published on this [Moodle](https
 
 ### 07 - IT automation and configuration management
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796944/mod\_resource/content/6/CLD%20Lc05%20Storage%20as%20a%20service%20and%20NoSQL.pdf)
+* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796956/mod\_resource/content/4/CLD%20Lc07%20IT%20automation%20and%20configuration%20management.pdf)
 * [Ansible vs Terraform](https://spacelift.io/blog/ansible-vs-terraform)
 * Quiz not available yet
