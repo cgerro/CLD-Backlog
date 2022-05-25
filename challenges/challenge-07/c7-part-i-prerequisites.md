@@ -61,7 +61,7 @@ Processing triggers for dbus (1.12.20-2) ...
 
 ```
 [Request]
-  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs ) main
+  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com" $(lsb_release -cs ) main
 
 [Response]
   -none-
