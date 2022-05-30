@@ -68,7 +68,30 @@ The missing file terraform.tfvars is supposed to contain values for variables us
 
 You should have a file structure like this:
 
-. ├── credentials │ ├── labgce-service-account-key.json │ ├── labgce-ssh-key │ └── labgce-ssh-key.pub └── terraform ├── backend.tf ├── main.tf ├── outputs.tf ├── terraform.tfvars └── variables.tf
+```
+.
+├── ansible
+│   ├── ansible.cfg
+│   ├── hosts
+│   └── playbooks
+│       ├── files
+│       │   └── nginx.conf
+│       ├── templates
+│       │   └── index.html.j2
+│       └── web.yml
+├── credentials
+│   ├── labgce-service-account-key.json
+│   ├── labgce-ssh-key
+│   └── labgce-ssh-key.pub
+└── terraform
+    ├── backend.tf
+    ├── main.tf
+    ├── outputs.tf
+    ├── terraform.tfstate
+    ├── terraform.tfstate.backup
+    ├── terraform.tfvars
+    └── variables.tf
+```
 
 There are two differences between Google Cloud and AWS that you should know about:
 
