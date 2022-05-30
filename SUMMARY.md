@@ -39,5 +39,6 @@
     * [C6 - Notion of done](challenges/challenge-06/notion-of-done.md)
   * [Challenge 07](challenges/challenge-07/README.md)
     * [C7 - Part I - Prerequisites](challenges/challenge-07/c7-part-i-prerequisites.md)
+    * [C7 - Part II - Terraform](challenges/challenge-07/c7-part-ii-terraform.md)
 * [Workshops](workshops.md)
 * [Quiz](quiz.md)
