@@ -40,13 +40,13 @@ The official sources to study for your exam are published on this [Moodle](https
 
 * [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796944/mod\_resource/content/6/CLD%20Lc05%20Storage%20as%20a%20service%20and%20NoSQL.pdf)
 * [Mongo Db Documentation](https://www.mongodb.com/databases/what-is-an-object-oriented-database)
-* Quiz not available yet
+* [Quiz](https://forms.office.com/Pages/ResponsePage.aspx?id=JPdyo7LAoE6r-w64xvhOQJEkRsVIVXJJqNFbAYkuO95UQlNHQ05BMkUzTVFaU0YwUFZDNERVU1pNSC4u)
 
 ### 06 Container cluster management and orchestration
 
 * [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796954/mod\_resource/content/4/CLD%20Lc06%20Container%20cluster%20mgmt%20and%20orchestration.pdf)
 * [Kubernetes Documentation](https://kubernetes.io/fr/docs/home/)
-* Quiz not available yet
+* [Quiz](https://forms.office.com/Pages/ResponsePage.aspx?id=JPdyo7LAoE6r-w64xvhOQJEkRsVIVXJJqNFbAYkuO95UM1NKM0lRMThQT0VOWUZXSlhNSFFSWjkxMi4u)
 
 ### 07 - IT automation and configuration management
 
