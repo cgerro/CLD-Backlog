@@ -70,15 +70,6 @@ You should have a file structure like this:
 
 ```
 .
-├── ansible
-│   ├── ansible.cfg
-│   ├── hosts
-│   └── playbooks
-│       ├── files
-│       │   └── nginx.conf
-│       ├── templates
-│       │   └── index.html.j2
-│       └── web.yml
 ├── credentials
 │   ├── labgce-service-account-key.json
 │   ├── labgce-ssh-key
@@ -87,8 +78,6 @@ You should have a file structure like this:
     ├── backend.tf
     ├── main.tf
     ├── outputs.tf
-    ├── terraform.tfstate
-    ├── terraform.tfstate.backup
     ├── terraform.tfvars
     └── variables.tf
 ```
@@ -252,7 +241,30 @@ Get the index.html.j2 template file (available at the end of this page) and put 
 
 You should have a file structure like this
 
-. ├── ansible │ ├── ansible.cfg │ ├── hosts │ └── playbooks │ ├── files │ │ └── nginx.conf │ ├── templates │ │ └── index.html.j2 │ └── web.yml ├── credentials │ ├── labgce-service-account-key.json │ ├── labgce-ssh-key │ └── labgce-ssh-key.pub └── terraform ├── backend.tf ├── main.tf ├── outputs.tf ├── terraform.tfstate ├── terraform.tfstate.backup ├── terraform.tfvars └── variables.tf
+```
+.
+├── ansible
+│   ├── ansible.cfg
+│   ├── hosts
+│   └── playbooks
+│       ├── files
+│       │   └── nginx.conf
+│       ├── templates
+│       │   └── index.html.j2
+│       └── web.yml
+├── credentials
+│   ├── labgce-service-account-key.json
+│   ├── labgce-ssh-key
+│   └── labgce-ssh-key.pub
+└── terraform
+    ├── backend.tf
+    ├── main.tf
+    ├── outputs.tf
+    ├── terraform.tfstate
+    ├── terraform.tfstate.backup
+    ├── terraform.tfvars
+    └── variables.
+```
 
 Now you can run the newly created playbook to configure NGINX on the managed host. The command to run playbooks is ansible-playbook and must be ran from the ansible directory:
 
