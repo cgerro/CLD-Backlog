@@ -26,9 +26,9 @@ In the second part, we configure the virtual machine by installing a web server 
 
 In the third (optional) part, we use Terraform in a team. For that, we need to share the Terraform state among the team members. Our solution is to store the Terraform state in a Version Control System.&#x20;
 
-### Task 1 : Download config files
+### Task 1: Download config files
 
-
+{% file src="../../.gitbook/assets/cld-2021-2022-labgce-student-files.zip" %}
 
 ### Task 2: Create a cloud infrastructure on Google Compute Engine with Terraform
 

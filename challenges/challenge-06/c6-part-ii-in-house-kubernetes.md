@@ -9,7 +9,7 @@
 * Log yourself on [https://kubernetes.iict.ch](https://kubernetes.iict.ch) with the credentials given in the teams channel. /!\ Select "Use a local user" /!\\
 * Once you are logged go on "jupyter-enseignement" and then on the right corner click on the button "Kubeconfig File". Copy the content and paste it on your machine in the file `~/.kube/config`.
 
-![kubernetes iict](<../../.gitbook/assets/image (3).png>)
+![kubernetes iict](<../../.gitbook/assets/image (9).png>)
 
 * To test that you can speak with the cluster try the command listing all nodes available. You should have something like that:
 
