@@ -42,3 +42,4 @@
     * [C7 - Part II - Terraform](challenges/challenge-07/c7-part-ii-terraform.md)
 * [Workshops](workshops.md)
 * [Quiz](quiz.md)
+* [Feedback session 2021-2022](feedback-session-2021-2022.md)
