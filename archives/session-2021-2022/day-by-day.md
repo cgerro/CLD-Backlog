@@ -132,7 +132,7 @@ Labo
 
 
 
-![](.gitbook/assets/crunch.PNG)
+![](../../.gitbook/assets/crunch.PNG)
 
 ### Monday, 7 MAR 2022
 

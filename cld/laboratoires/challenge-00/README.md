@@ -1,0 +1,33 @@
+---
+description: This page describes the challenge to solve
+---
+
+# Laboratoire 00
+
+### Challenge's targets:
+
+* First experiences with AWS using&#x20;
+  * web access (end-users approach).
+  * the AWS CLI.
+* SSH refresh.
+* Linux refresh.
+* The notion of done.
+
+### Given
+
+* Teams files shared:
+  * **CLDGRPXX.csv** - Team AWS Credentials
+  * **connectionstring.txt** - Helper for ssh connection
+  * **KEY\_CLDGPR\[XX].pem -** Private SSH Key (DMZ SSH User)
+
+{% embed url="https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html" %}
+AWS Standard Infra with VPC and DMZ
+{% endembed %}
+
+### Backlog
+
+* [Part I - AWS Console- first experience](../../../archives/session-2021-2022/challenges/challenge-00/c1-part-i-console.md)&#x20;
+* [Part II - AWS Console - Launch Instance](../../../archives/session-2021-2022/challenges/challenge-00/c1-part-ii-launch-instance.md)
+* [Part II - SSH access - how to reach the private subnet?](../../../archives/session-2021-2022/challenges/challenge-00/c1-part-iii-ssh-access.md)
+* [Part III - AWS CLI - first experience](../../../archives/session-2021-2022/challenges/challenge-00/c1-part-iv-aws-cli.md)
+* [Notion of done](../../../archives/session-2021-2022/challenges/challenge-00/notion-of-done.md)

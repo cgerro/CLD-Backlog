@@ -8,7 +8,7 @@ description: This page describes the infra up dated for the Labo 02
 
 ### Infra Diagram
 
-![](../../.gitbook/assets/CLD-INFRA-LABO02.PNG)
+![](../../../../.gitbook/assets/CLD-INFRA-LABO02.PNG)
 
 ### Create VPC
 

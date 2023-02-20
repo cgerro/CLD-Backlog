@@ -10,7 +10,7 @@ description: This page describes the SSH Challenge
 * A SSH Client (if you want to use Putty, you need to convert .pem to .ppk file)
 * Read carefully the following Infra Schema
 
-![Labo infra based on AWS Standard (see Challenge 00)](../../.gitbook/assets/CLD\_Infra\_Labo0.png)
+![Labo infra based on AWS Standard (see Challenge 00)](../../../../.gitbook/assets/CLD\_Infra\_Labo0.png)
 
 ### SSH Challenge - Step by Step
 

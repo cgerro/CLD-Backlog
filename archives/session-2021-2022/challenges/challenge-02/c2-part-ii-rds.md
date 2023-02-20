@@ -95,10 +95,10 @@ mysqldump --add-drop-table --no-tablespaces --user=drupal --password=<mysql_loca
 
 Question 1 - Standard vs Memory-optimized vs Burstable?
 
-![](../../.gitbook/assets/DBInstanceClass.PNG)
+![](../../../../.gitbook/assets/DBInstanceClass.PNG)
 
 Question 2 - What's a Standby instance?
 
-![](../../.gitbook/assets/AvailabilityAndDurability.PNG)
+![](../../../../.gitbook/assets/AvailabilityAndDurability.PNG)
 
 Question 3 - How to prove the correct operation of the RDS?

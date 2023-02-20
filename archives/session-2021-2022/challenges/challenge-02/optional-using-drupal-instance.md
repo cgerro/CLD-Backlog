@@ -11,7 +11,7 @@ description: >-
 * Launch this instance in your Subnet (you do not have the permissions, ask your assistant or teacher)
 * [Official Doc](https://aws.amazon.com/marketplace/pp/prodview-iy6vp2fw4kise?ref=cns\_srchrow)
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../../../.gitbook/assets/image (13).png>)
 
 ### Where are the credentials ?
 

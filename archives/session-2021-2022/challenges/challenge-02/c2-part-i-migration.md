@@ -92,7 +92,7 @@ Step 6 - Finalize your LABO02 environment
 
 * You need to "link" your two new subnet route tables (A and B) to your subnet.
 
-![](../../.gitbook/assets/LinkRteTableSubnet.PNG)
+![](../../../../.gitbook/assets/LinkRteTableSubnet.PNG)
 
 * Update the route table to enable outbound traffic
 

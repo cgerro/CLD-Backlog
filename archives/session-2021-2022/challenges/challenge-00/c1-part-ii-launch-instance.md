@@ -10,7 +10,7 @@ description: This page help you to launch a first instance (in a specific subnet
 * Select the eu-south-1 region.
 * Read carefully the following Infra Schema
 
-![Labo infra based on AWS Standard (see Challenge 00)](../../.gitbook/assets/CLD\_Infra\_Labo0.png)
+![Labo infra based on AWS Standard (see Challenge 00)](../../../../.gitbook/assets/CLD\_Infra\_Labo0.png)
 
 
 

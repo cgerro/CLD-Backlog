@@ -28,7 +28,7 @@ Accesses:
 
 Schema
 
-![](../../.gitbook/assets/todoapp.png)
+![](../../../../.gitbook/assets/todoapp.png)
 
 
 

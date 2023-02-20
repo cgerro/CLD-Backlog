@@ -9,7 +9,7 @@
 * Log yourself on [https://kubernetes.iict.ch](https://kubernetes.iict.ch) with the credentials given in the teams channel. /!\ Select "Use a local user" /!\\
 * Once you are logged go on "jupyter-enseignement" and then on the right corner click on the button "Kubeconfig File". Copy the content and paste it on your machine in the file `~/.kube/config`.
 
-![kubernetes iict](<../../.gitbook/assets/image (9).png>)
+![kubernetes iict](<../../../../.gitbook/assets/image (9).png>)
 
 * To test that you can speak with the cluster try the command listing all nodes available. You should have something like that:
 
@@ -31,9 +31,9 @@ NAME           STATUS   ROLES                      AGE    VERSION
 
 1. Run the following commands to deploy redis
 
-{% file src="../../.gitbook/assets/redis-pod.yaml" %}
+{% file src="../../../../.gitbook/assets/redis-pod.yaml" %}
 
-{% file src="../../.gitbook/assets/redis-svc.yaml" %}
+{% file src="../../../../.gitbook/assets/redis-svc.yaml" %}
 
 
 
@@ -48,7 +48,7 @@ kubectl create -f redis-pod.yaml -n cldgrpXX
 
 Using the `redis-svc.yaml` file as example and information from `api-pod.yaml`, create the `api-svc.yaml` configuration file for the API Service. The Service has to expose port 8081 and connect to the port of the API Pod.
 
-{% file src="../../.gitbook/assets/api-pod.yaml" %}
+{% file src="../../../../.gitbook/assets/api-pod.yaml" %}
 
 
 
@@ -78,7 +78,7 @@ _Remember that anything you define as a Service will be assigned a DOMAIN that i
 
 Using the `redis-svc.yaml` file as an example, create the `frontend-svc.yaml` configuration file for the Frontend Service.
 
-{% file src="../../.gitbook/assets/redis-svc.yaml" %}
+{% file src="../../../../.gitbook/assets/redis-svc.yaml" %}
 
 Unlike the Redis and API Services the Frontend needs to be accessible from outside the Kubernetes cluster as a regular web server on port 80.
 
