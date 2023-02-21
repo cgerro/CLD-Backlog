@@ -15,7 +15,7 @@ description: This page describes the SSH Challenge
 
 ```
 //pattern
-ssh [user]@[SSH Srv Public Ip] - i [PathTotheKey]/CLDGRP[XX].pem
+ssh [user]@[SSH Srv Public Ip] - i [PathTotheKey]/[KeyName].pem
 
 //sample delivered in your private channel in teams
 ```
