@@ -10,7 +10,7 @@ description: This page describes the elements to master on the AWS console.
 * Change (first login) password
 * Select the eu-south-1 region
 
-![Sample : How to list all instances in a specific region](../../../.gitbook/assets/awsConsole.PNG)
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### How to...
 

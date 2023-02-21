@@ -1,11 +1,10 @@
 # Table of contents
 
 * [CLD](README.md)
-  * [Cours](cld/cours.md)
   * [Laboratoires](cld/laboratoires/README.md)
     * [Laboratoire 00](cld/laboratoires/challenge-00/README.md)
       * [C0 - Part I - AWS Management Console](cld/laboratoires/challenge-00/c1-part-i-console.md)
-      * [C0 - Part II - Launch Instance](cld/laboratoires/challenge-00/c1-part-ii-launch-instance.md)
+      * [C0 - Part II - Private Subnet and Instance](cld/laboratoires/challenge-00/c1-part-ii-launch-instance.md)
       * [C0 - Part III - SSH access](cld/laboratoires/challenge-00/c1-part-iii-ssh-access.md)
       * [C0 - Part IV - AWS CLI](cld/laboratoires/challenge-00/c1-part-iv-aws-cli.md)
       * [C0 - Notion of done](cld/laboratoires/challenge-00/notion-of-done.md)

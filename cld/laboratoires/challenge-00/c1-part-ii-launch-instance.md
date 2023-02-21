@@ -2,7 +2,7 @@
 description: This page help you to launch a first instance (in a specific subnet)
 ---
 
-# C0 - Part II - Launch Instance
+# C0 - Part II - Private Subnet and Instance
 
 ### Prerequisites
 
@@ -10,9 +10,15 @@ description: This page help you to launch a first instance (in a specific subnet
 * Select the eu-south-1 region.
 * Read carefully the following Infra Schema
 
-![Labo infra based on AWS Standard (see Challenge 00)](../../../.gitbook/assets/CLD\_Infra\_Labo0.png)
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
+
+## **Prepare your own private network**
+
+**//Live Demo**
+
+### ****
 
 ### **Launch instance (step by step)**
 
