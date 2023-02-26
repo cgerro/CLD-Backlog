@@ -10,9 +10,7 @@ description: This page help you to launch a first instance (in a specific subnet
 * Select the eu-south-1 region.
 * Read carefully the following Infra Schema
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Prepare your own private network**
 
