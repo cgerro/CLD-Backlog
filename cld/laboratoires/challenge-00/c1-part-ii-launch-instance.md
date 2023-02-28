@@ -14,7 +14,7 @@ description: This page help you to launch a first instance (in a specific subnet
 
 ## **Prepare your own private network**
 
-**//Live Demo**
+****
 
 ### **Launch instance (step by step)**
 
