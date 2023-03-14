@@ -32,24 +32,24 @@ The official sources to study for your exam are published on this [Moodle](https
 
 ### 04 Platform as a Service
 
-* [Moodle](https://cyberlearn.hes-so.ch/mod/resource/view.php?id=1684918)
+* [Cyberlearn](https://cyberlearn.hes-so.ch/pluginfile.php/4232448/mod\_resource/content/7/CLD%20Lc04%20Platform%20as%20a%20Service.pdf)
 * [Google Documentation](https://cloud.google.com/appengine)
 * Quiz  not available yet
 
 ### 05 Storage as a service and NoSQL
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796944/mod\_resource/content/6/CLD%20Lc05%20Storage%20as%20a%20service%20and%20NoSQL.pdf)
+* Cyberlearn
 * [Mongo Db Documentation](https://www.mongodb.com/databases/what-is-an-object-oriented-database)
 * Quiz not available yet
 
 ### 06 Container cluster management and orchestration
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796954/mod\_resource/content/4/CLD%20Lc06%20Container%20cluster%20mgmt%20and%20orchestration.pdf)
+* Cyberlearn
 * [Kubernetes Documentation](https://kubernetes.io/fr/docs/home/)
 * Quiz not available yet
 
 ### 07 - IT automation and configuration management
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796956/mod\_resource/content/4/CLD%20Lc07%20IT%20automation%20and%20configuration%20management.pdf)
+* Cyberlearn
 * [Ansible vs Terraform](https://spacelift.io/blog/ansible-vs-terraform)
 * Quiz not available yet
