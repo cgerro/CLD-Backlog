@@ -12,7 +12,7 @@ description: This page help you to launch a first instance (in a specific subnet
 
 ## **Prepare your own private network**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### **Launch instance (step by step)**
 

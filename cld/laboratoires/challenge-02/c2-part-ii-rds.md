@@ -2,23 +2,30 @@
 description: This page describes the Part II of the Labo 2
 ---
 
-# C2 - RDS
-
-##
+# C2 - RDS - 2tiers
 
 ## Create and migrate a database using the Relational Database Service (RDS)
 
 ****[**AWS Official Doc**](https://aws.amazon.com/rds/)****
 
+## Prerequisites
+
+* [ ] Create an AMI of your Drupal Instance (CLD-INSTANCE-DEVTEAM\[XX])
+* [ ] Terminate your instance
+* [ ] Delete your private subnet
+* [ ] Create two new subnets sharing the ip range like this
+  * [ ] 10.0.\[XX].0/28 -> eu-south-1a -> CLD-SUBNET-DEVTEAM\[XX]\_A
+  * [ ] 10.0.\[XX].128/28 -> eu-south-1b -> CLD-SUBNET-DEVTEAM\[XX]\_B
+
 ### **Step 1: Create DB subnet group**
 
 * Subnet group details
 
-| Variable    | Value                    |
-| ----------- | ------------------------ |
-| Name        | DBSUBNET-CLDGRP\[XX]-RDS |
-| Description | Same as name             |
-| VPC         | VPC-CLD-LAB002           |
+| Variable    | Value                     |
+| ----------- | ------------------------- |
+| Name        | CLD-DBSUBNET-DEVTEAM\[XX] |
+| Description | CLD-DBSUBNET-DEVTEAM\[XX] |
+| VPC         | CLD-VPC                   |
 
 * Add subnets
 
