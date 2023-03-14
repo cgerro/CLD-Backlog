@@ -6,8 +6,6 @@ description: This part describes the concepts to understand.
 
 {% hint style="info" %}
 The official sources to study for your exam are published on this [Moodle](https://cyberlearn.hes-so.ch/course/view.php?id=20706)
-
-
 {% endhint %}
 
 ### 01 Basic concepts
