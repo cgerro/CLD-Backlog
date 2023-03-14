@@ -14,8 +14,8 @@ description: This page describes the Part II of the Labo 2
 * [ ] Terminate your instance
 * [ ] Delete your private subnet
 * [ ] Create two new subnets sharing the ip range like this
-  * [ ] 10.0.\[XX].0/28 -> eu-south-1a -> CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_A
-  * [ ] 10.0.\[XX].128/28 -> eu-south-1b -> CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_B
+  * [ ] 10.0.\[XX].0/28 -> eu-south-1a -> <mark style="color:red;">CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_A</mark>
+  * [ ] 10.0.\[XX].128/28 -> eu-south-1b -> <mark style="color:red;">CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_B</mark>
 
 ### **Step 1: Create DB subnet group**
 
@@ -42,7 +42,7 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 
 | Rule                 | Value                                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------------------- |
-| Name                 | CLD-SG-DEVOPSTEAM\[XX]\_RDS                                                                        |
+| Name                 | <mark style="color:red;">CLD-SG-DEVOPSTEAM\[XX]\_RDS</mark>                                        |
 | Rule for SQL Traffic | <ul><li>Port range: 3306</li><li>Protocol: TCP</li><li>Source: Private Subnet e-south-1a</li></ul> |
 
 ### **Step 3: Create a database**
