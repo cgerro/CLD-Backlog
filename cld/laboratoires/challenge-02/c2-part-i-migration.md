@@ -2,7 +2,7 @@
 description: This page describes the Part I of the Challenge 2
 ---
 
-# C2 - Part I - Preparing Network
+# \[In Review] C2 - Part I - Preparing Network
 
 ### Prerequisites
 
@@ -21,9 +21,7 @@ Constraints:&#x20;
 
 * AMI Name - CLD-INSTANCE-DEVOPSTEAM\[XX]
 
-Step 2 - Set
-
-#### Step 2 - Deploy a new instance, based on your AIM previously created in the new VPC.
+#### Step 2 - Deploy a new instance, based on your AIM previously created.
 
 Constraints:
 
