@@ -12,7 +12,7 @@ none
 
 ![](<../../../../../.gitbook/assets/image (1) (1) (1).png>)
 
-![Email to confirm the register](<../../../../../.gitbook/assets/image (8).png>)
+![Email to confirm the register](<../../../../../.gitbook/assets/image (8) (1).png>)
 
 ![Confirmation](<../../../../../.gitbook/assets/image (12).png>)
 

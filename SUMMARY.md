@@ -14,7 +14,7 @@
       * [\[REVIEW\] C1 - Part II - Deploy a Web app](cld/laboratoires/challenge-01/c2-part-ii-deploy-a-web-app.md)
       * [Notion of done](cld/laboratoires/challenge-01/notion-of-done.md)
     * [Laboratoire 02](cld/laboratoires/challenge-02/README.md)
-      * [Infra Labo 02](cld/laboratoires/challenge-02/infra-labo-02.md)
+      * [Kickoff Labo 02](cld/laboratoires/challenge-02/infra-labo-02.md)
       * [C1 - Set up Drupal Instance](cld/laboratoires/challenge-02/optional-using-drupal-instance.md)
       * [C2 - RDS](cld/laboratoires/challenge-02/c2-part-ii-rds.md)
       * [C2 - Part I - Preparing Network](cld/laboratoires/challenge-02/c2-part-i-migration.md)
