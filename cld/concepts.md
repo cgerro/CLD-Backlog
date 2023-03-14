@@ -12,18 +12,18 @@ The official sources to study for your exam are published on this [Moodle](https
 
 ### 01 Basic concepts
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/4232443/mod\_resource/content/7/CLD%20Lc01%20Basic%20concepts.pdf)
+* [Cyberlearn](https://cyberlearn.hes-so.ch/pluginfile.php/4232443/mod\_resource/content/7/CLD%20Lc01%20Basic%20concepts.pdf)
 * [Definition of cloud computing NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf)
 * [Quiz](https://forms.office.com/Pages/ResponsePage.aspx?id=JPdyo7LAoE6r-w64xvhOQJEkRsVIVXJJqNFbAYkuO95UMUZLTzVXNkNHVVlMUjlCSFRLRUozMURCQy4u)
 
 ### 02 Introduction to AWS
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/4232445/mod\_resource/content/8/CLD%20Lc02%20Introduction%20to%20Amazon%20Web%20Services.pdf)
+* [Cyberlearn](https://cyberlearn.hes-so.ch/pluginfile.php/4232445/mod\_resource/content/8/CLD%20Lc02%20Introduction%20to%20Amazon%20Web%20Services.pdf)
 * [Quiz](https://forms.office.com/Pages/ResponsePage.aspx?id=JPdyo7LAoE6r-w64xvhOQJEkRsVIVXJJqNFbAYkuO95UMDJJVjBPRDhLSERBUUlZSVBLQVk2QlZZVi4u)
 
 ### 03 Scalable applications on IaaS
 
-* [Moodle](https://cyberlearn.hes-so.ch/pluginfile.php/3796939/mod\_resource/content/7/CLD%20Lc03%20Scalable%20apps%20on%20IaaS.pdf)
+* [Cyberlearn](https://cyberlearn.hes-so.ch/pluginfile.php/4232447/mod\_resource/content/9/CLD%20Lc03%20Scalable%20apps%20on%20IaaS.pdf)
 * [Aws Documentation](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
   * [Gestion des sessions et loadbalancer](https://docs.aws.amazon.com/fr\_fr/elasticloadbalancing/latest/classic/elb-sticky-sessions.html)
   * [Burstable performances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html)
