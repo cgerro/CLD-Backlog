@@ -1,8 +1,8 @@
 ---
-description: This page describes the Part II of the Challenge 2
+description: This page describes the Part II of the Labo 2
 ---
 
-# C2 - Part II - RDS
+# C2 - RDS
 
 ## Create and migrate a database using the Relational Database Service (RDS)
 

@@ -4,7 +4,7 @@ description: >-
   Catalog.
 ---
 
-# \[Optional] Using Drupal Instance
+# C1 - Set up Drupal Instance
 
 ### Prerequisites
 
@@ -15,7 +15,7 @@ description: >-
 
 ### Where are the credentials ?
 
-* How to find the ssh user ?
+* How to find the ssh user infos ?
 
 ```
 [Request]

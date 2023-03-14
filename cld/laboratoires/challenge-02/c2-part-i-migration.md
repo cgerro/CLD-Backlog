@@ -6,9 +6,8 @@ description: This page describes the Part I of the Challenge 2
 
 ### Prerequisites
 
-* [Challenge 01](../../../archives/session-2021-2022/challenges/challenge-01/)
-* Set a drupal instance in the CLD-VPC-LAB001
-* VPC Labo 02 is ready to be used. Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram), except for your own private instance.
+* Previous laboratories have to be done.
+* Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram).
 
 ### Challenge
 
@@ -16,15 +15,13 @@ description: This page describes the Part I of the Challenge 2
 Do not change anything on VPC level, as well as the DMZ!&#x20;
 {% endhint %}
 
-{% hint style="info" %}
-Check if subnet A is available in az 1a and subnet B in az 1b !!!! &#x20;
-{% endhint %}
-
 #### Step 1 - Create an AMI of your Drupal Instance
 
 Constraints:&#x20;
 
-* AMI Name - CLD-INSTANCE-DEVOPSTEAM\[XX]\_DRUPAL
+* AMI Name - CLD-INSTANCE-DEVOPSTEAM\[XX]
+
+Step 2 - Set
 
 #### Step 2 - Deploy a new instance, based on your AIM previously created in the new VPC.
 

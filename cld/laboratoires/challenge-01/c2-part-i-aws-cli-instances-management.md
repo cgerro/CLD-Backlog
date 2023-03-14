@@ -1,4 +1,4 @@
-# C1 - Part I - AWS CLI - Instances management
+# \[REVIEW] C1 - Part I - Managing Instances
 
 ### Prerequisites
 
@@ -15,7 +15,7 @@ Instance type : t3.micro
 
 AMI : ami-0f8ce9c417115413d (Ubuntu 20)
 
-Subnet : CLDGRP\[XX]
+Subnet : CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]
 
 [Source](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-instances.html)
 
@@ -111,15 +111,15 @@ We check if the targeted instances have been stopped:
 aws ec2 describe-instances --filters Name=instance-state-name,Values=running --query "Reservations[*].Instances[*].{Instance:InstanceId,Name:Tags[?Key=='Name']|[0].Value}" --output table --region eu-south-1 --profile CLDGRP99
 
 [Response]
----------------------------------------------------
-|                DescribeInstances                |
-+----------------------+--------------------------+
-|       Instance       |          Name            |
-+----------------------+--------------------------+
-|  i-0edd7b00f313a3908 |  DMZ_NAT_SRV             |
-|  i-0cd826608eb84934d |  DMZ_SSH_SRV             |
-|  i-0f39d46d11473061c |  CLGGRP99_UBU20_DRUPAL   |
-+----------------------+--------------------------+
+----------------------------------------------------
+|                DescribeInstances                 |
++----------------------+---------------------------+
+|       Instance       |          Name             |
++----------------------+---------------------------+
+|  i-0edd7b00f313a3908 |CLD-INSTANCE-PUBLIC-NAT    |
+|  i-0cd826608eb84934d |CLD-INSTANCE-PUBLIC-SSHSrv |
+|  i-0f39d46d11473061c |CLD-INSTANCE-DEVOPSTEAM[00]|
++----------------------+---------------------------+
 ```
 
 #### Step 03 - Stop Instances
