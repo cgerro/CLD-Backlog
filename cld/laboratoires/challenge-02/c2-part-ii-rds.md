@@ -19,6 +19,10 @@ description: This page describes the Part II of the Labo 2
 
 ### **Step 1: Create DB subnet group**
 
+{% hint style="info" %}
+Go to AWS "RDS MANAGEMENT CONSOLE"
+{% endhint %}
+
 * Subnet group details
 
 | Variable    | Value                     |
