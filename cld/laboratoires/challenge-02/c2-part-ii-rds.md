@@ -55,17 +55,17 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 **Issue 2: accessibility problem for the sql user created with the CLI.**
 {% endhint %}
 
-| Variable               | Value                                                                                                                                                                                         |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Engine                 | Please refer to your Drupal version                                                                                                                                                           |
-| Template               | Dev / Test                                                                                                                                                                                    |
-| DB instance identifier | DBINS-CLDGRP\[XX]-RDS-DRUPAL                                                                                                                                                                  |
-| DB User                | admin                                                                                                                                                                                         |
-| DB Password            | \[pwd]                                                                                                                                                                                        |
-| DB instance class      | <ul><li>Burstable classes</li><li>db.t3.micro</li></ul>                                                                                                                                       |
-| Storage                | <ul><li>Storage type: General Purpose (SSD)</li><li>Allocated Storage: 20 GB</li><li>Storage Autoscalling: unchecked</li></ul>                                                                |
-| Connectivity           | <ul><li>VPC: VPC-CLD-LABO02</li><li>Subnet Group: The one created just before</li><li>Public access: No</li><li>VPC security group: use existing</li><li>Availability zone : A Zone</li></ul> |
-| Additionnal option     | Disable autobackup                                                                                                                                                                            |
+| Variable               | Value                                                                                                                                                                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Engine                 | Please refer to your Drupal version                                                                                                                                                                                    |
+| Template               | Dev / Test                                                                                                                                                                                                             |
+| DB instance identifier | DBINS-DEVOPSTEAMS\[XX]-RDS-DRUPAL                                                                                                                                                                                      |
+| DB User                | admin                                                                                                                                                                                                                  |
+| DB Password            | \[pwd]                                                                                                                                                                                                                 |
+| DB instance class      | <ul><li>Burstable classes</li><li>db.t3.micro</li></ul>                                                                                                                                                                |
+| Storage                | <ul><li>Storage type: General Purpose (SSD)</li><li>Allocated Storage: 20 GB</li><li>Storage Autoscalling: unchecked</li></ul>                                                                                         |
+| Connectivity           | <ul><li>VPC: <mark style="color:red;">VPC-CLD</mark></li><li>Subnet Group: The one created just before</li><li>Public access: No</li><li>VPC security group: use existing</li><li>Availability zone : A Zone</li></ul> |
+| Additionnal option     | Disable autobackup                                                                                                                                                                                                     |
 
 {% hint style="info" %}
 Disable Monitoring option
@@ -73,8 +73,8 @@ Disable Monitoring option
 
 ### **Step 4: Test connection**
 
-* Get the rds endpoint
-* Test that the drupal machine can connect to the RDS with the command:
+* Get the RDS endpoint
+* Test that the Drupal machine can connect to the RDS with the command:
 
 ```
 mysql --host=endpoint_address --user=<rds_master_username> --password=<rds_master_password>`
