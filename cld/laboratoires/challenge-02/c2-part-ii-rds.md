@@ -67,6 +67,10 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 | Connectivity           | <ul><li>VPC: VPC-CLD-LABO02</li><li>Subnet Group: The one created just before</li><li>Public access: No</li><li>VPC security group: use existing</li><li>Availability zone : A Zone</li></ul> |
 | Additionnal option     | Disable autobackup                                                                                                                                                                            |
 
+{% hint style="info" %}
+Disable Monitoring option
+{% endhint %}
+
 ### **Step 4: Test connection**
 
 * Get the rds endpoint
