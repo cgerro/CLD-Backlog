@@ -1,6 +1,7 @@
 # Table of contents
 
 * [CLD](README.md)
+  * [Concepts](cld/concepts.md)
   * [Laboratoires](cld/laboratoires/README.md)
     * [Laboratoire 00](cld/laboratoires/challenge-00/README.md)
       * [C0 - Part I - AWS Management Console](cld/laboratoires/challenge-00/c1-part-i-console.md)
