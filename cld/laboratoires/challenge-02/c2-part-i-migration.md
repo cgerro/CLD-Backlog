@@ -2,13 +2,13 @@
 description: This page describes the Part I of the Challenge 2
 ---
 
-# C2 - Part I - Migration
+# C2 - Part I - Preparing Network
 
 ### Prerequisites
 
 * [Challenge 01](../../../archives/session-2021-2022/challenges/challenge-01/)
 * Set a drupal instance in the CLD-VPC-LAB001
-* VPC Labo 02 is ready to be used. Please refer to [Infra Labo 02](../../../archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md#infra-diagram), except for your own private instance.
+* VPC Labo 02 is ready to be used. Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram), except for your own private instance.
 
 ### Challenge
 
@@ -24,31 +24,23 @@ Check if subnet A is available in az 1a and subnet B in az 1b !!!! &#x20;
 
 Constraints:&#x20;
 
-* AMI Name - CLDGRPXX\__Labo02\_Migration_\_\[Free]
-
-```
-[Request]
-//TODO
-
-[Response]
-//TODO
-```
+* AMI Name - CLD-INSTANCE-DEVOPSTEAM\[XX]\_DRUPAL
 
 #### Step 2 - Deploy a new instance, based on your AIM previously created in the new VPC.
 
 Constraints:
 
-|                  |                                                                                                                             |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Instance Name    | CLDGRP\[XX]\__Drupal_\_\[FREE]                                                                                              |
-| Instance Type    | t3.micro                                                                                                                    |
-| OS Volume        | 10 Go                                                                                                                       |
-| Region           | Please refer to [Infra Labo 02](../../../archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md#infra-diagram) |
-| VPC              | Please refer to [Infra Labo 02](../../../archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md#infra-diagram) |
-| Subnet           | Please refer to [Infra Labo 02](../../../archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md#infra-diagram) |
-| Private IP       | Please refer to [Infra Labo 02](../../../archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md#infra-diagram) |
-| SSH Key Pair     | Same as in VPC LAB 01                                                                                                       |
-| Security (group) | SG-CDGP\[XX]-LABO02                                                                                                         |
+|                  |                                                                 |
+| ---------------- | --------------------------------------------------------------- |
+| Instance Name    | CLD-INSTANCE-DEVOPSTEAM\[XX] _Drupal_\_\[FREE]                  |
+| Instance Type    | t3.micro                                                        |
+| OS Volume        | 10 Go                                                           |
+| Region           | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
+| VPC              | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
+| Subnet           | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
+| Private IP       | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
+| SSH Key Pair     | Same as in VPC LAB 01                                           |
+| Security (group) | CLD-SG-PRIVATE-DEVOPSTEAM\[XX]                                  |
 
 ```
 [Request]
@@ -78,7 +70,11 @@ Constraints:
 //TODO
 ```
 
-#### Step 5 - In the VPC Labo 01, remove Your Private Subnet (with Route table and routes)
+#### Step 6 - Finalize your LABO02 environment
+
+* You need to "link" your two new subnet route tables (A and B) to your subnet.
+
+![](../../../.gitbook/assets/LinkRteTableSubnet.PNG)
 
 ```
 [Request]
@@ -88,11 +84,12 @@ Constraints:
 //TODO
 ```
 
-Step 6 - Finalize your LABO02 environment
-
-* You need to "link" your two new subnet route tables (A and B) to your subnet.
-
-![](../../../.gitbook/assets/LinkRteTableSubnet.PNG)
-
 * Update the route table to enable outbound traffic
 
+```
+[Request]
+//TODO
+
+[Response]
+//TODO
+```

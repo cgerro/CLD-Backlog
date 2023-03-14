@@ -16,7 +16,7 @@
     * [Laboratoire 02](cld/laboratoires/challenge-02/README.md)
       * [Infra Labo 02](cld/laboratoires/challenge-02/infra-labo-02.md)
       * [\[Optional\] Using Drupal Instance](cld/laboratoires/challenge-02/optional-using-drupal-instance.md)
-      * [C2 - Part I - Migration](cld/laboratoires/challenge-02/c2-part-i-migration.md)
+      * [C2 - Part I - Preparing Network](cld/laboratoires/challenge-02/c2-part-i-migration.md)
       * [C2 - Part II - RDS](cld/laboratoires/challenge-02/c2-part-ii-rds.md)
       * [C2 - Part III - Load Balancer](cld/laboratoires/challenge-02/c2-part-iii-load-balancer.md)
 
@@ -40,8 +40,8 @@
       * [C1 - Part II - Deploy a Web app](archives/session-2021-2022/challenges/challenge-01/c2-part-ii-deploy-a-web-app.md)
       * [Notion of done](archives/session-2021-2022/challenges/challenge-01/notion-of-done.md)
     * [Challenge 02](archives/session-2021-2022/challenges/challenge-02/README.md)
-      * [Infra Labo 02](archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md)
       * [\[Optional\] Using Drupal Instance](archives/session-2021-2022/challenges/challenge-02/optional-using-drupal-instance.md)
+      * [Infra Labo 02](archives/session-2021-2022/challenges/challenge-02/infra-labo-02.md)
       * [C2 - Part I - Migration](archives/session-2021-2022/challenges/challenge-02/c2-part-i-migration.md)
       * [C2 - Part II - RDS](archives/session-2021-2022/challenges/challenge-02/c2-part-ii-rds.md)
       * [C2 - Part III - Load Balancer](archives/session-2021-2022/challenges/challenge-02/c2-part-iii-load-balancer.md)

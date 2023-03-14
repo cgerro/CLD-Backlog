@@ -8,7 +8,7 @@ description: This page describes the Part I of the Challenge 2
 
 * [Challenge 01](../challenge-01/)
 * Set a drupal instance in the CLD-VPC-LAB001
-* VPC Labo 02 is ready to be used. Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram), except for your own private instance.
+* VPC Labo 02 is ready to be used. Please refer to [Infra Labo 02](../../../../cld/laboratoires/challenge-02/infra-labo-02.md#infra-diagram), except for your own private instance.
 
 ### Challenge
 
@@ -38,17 +38,17 @@ Constraints:&#x20;
 
 Constraints:
 
-|                  |                                                                 |
-| ---------------- | --------------------------------------------------------------- |
-| Instance Name    | CLDGRP\[XX]\__Drupal_\_\[FREE]                                  |
-| Instance Type    | t3.micro                                                        |
-| OS Volume        | 10 Go                                                           |
-| Region           | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
-| VPC              | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
-| Subnet           | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
-| Private IP       | Please refer to [Infra Labo 02](infra-labo-02.md#infra-diagram) |
-| SSH Key Pair     | Same as in VPC LAB 01                                           |
-| Security (group) | SG-CDGP\[XX]-LABO02                                             |
+|                  |                                                                                                           |
+| ---------------- | --------------------------------------------------------------------------------------------------------- |
+| Instance Name    | CLDGRP\[XX]\__Drupal_\_\[FREE]                                                                            |
+| Instance Type    | t3.micro                                                                                                  |
+| OS Volume        | 10 Go                                                                                                     |
+| Region           | Please refer to [Infra Labo 02](../../../../cld/laboratoires/challenge-02/infra-labo-02.md#infra-diagram) |
+| VPC              | Please refer to [Infra Labo 02](../../../../cld/laboratoires/challenge-02/infra-labo-02.md#infra-diagram) |
+| Subnet           | Please refer to [Infra Labo 02](../../../../cld/laboratoires/challenge-02/infra-labo-02.md#infra-diagram) |
+| Private IP       | Please refer to [Infra Labo 02](../../../../cld/laboratoires/challenge-02/infra-labo-02.md#infra-diagram) |
+| SSH Key Pair     | Same as in VPC LAB 01                                                                                     |
+| Security (group) | SG-CDGP\[XX]-LABO02                                                                                       |
 
 ```
 [Request]
