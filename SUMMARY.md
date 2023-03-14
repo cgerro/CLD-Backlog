@@ -9,6 +9,16 @@
       * [C0 - Part III - SSH access](cld/laboratoires/challenge-00/c1-part-iii-ssh-access.md)
       * [C0 - Part IV - AWS CLI](cld/laboratoires/challenge-00/c1-part-iv-aws-cli.md)
       * [C0 - Notion of done](cld/laboratoires/challenge-00/notion-of-done.md)
+    * [Laboratoire 01](cld/laboratoires/challenge-01/README.md)
+      * [C1 - Part I - AWS CLI - Instances management](cld/laboratoires/challenge-01/c2-part-i-aws-cli-instances-management.md)
+      * [C1 - Part II - Deploy a Web app](cld/laboratoires/challenge-01/c2-part-ii-deploy-a-web-app.md)
+      * [Notion of done](cld/laboratoires/challenge-01/notion-of-done.md)
+    * [Laboratoire 02](cld/laboratoires/challenge-02/README.md)
+      * [Infra Labo 02](cld/laboratoires/challenge-02/infra-labo-02.md)
+      * [\[Optional\] Using Drupal Instance](cld/laboratoires/challenge-02/optional-using-drupal-instance.md)
+      * [C2 - Part I - Migration](cld/laboratoires/challenge-02/c2-part-i-migration.md)
+      * [C2 - Part II - RDS](cld/laboratoires/challenge-02/c2-part-ii-rds.md)
+      * [C2 - Part III - Load Balancer](cld/laboratoires/challenge-02/c2-part-iii-load-balancer.md)
 
 ## Archives
 
