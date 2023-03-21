@@ -85,7 +85,7 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 //TODO
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
 
 ### **Step 2: Create a new security group for the RDS instance**
 
@@ -155,9 +155,26 @@ Disable all Additional configuration options
 | Security Group    | CLD-SG-PRIVATE-DEVOPSTEAM\[XX]      |
 | Key Name          | CLD-KEY-DEVOPTEAM\[XX]-DRUPAL       |
 
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 ### **Step 5 : Test connection**
 
 * Get the RDS endpoint
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * Test that the Drupal machine can connect to the RDS with the command:
 
 ```
