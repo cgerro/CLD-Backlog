@@ -48,7 +48,7 @@ description: This page describes the Part II of the Labo 2
 //TODO
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
 
 ### **Step 1: Create DB subnet group**
 
@@ -58,11 +58,11 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 
 * Subnet group details
 
-| Variable    | Value                     |
-| ----------- | ------------------------- |
-| Name        | CLD-DBSUBNET-DEVTEAM\[XX] |
-| Description | CLD-DBSUBNET-DEVTEAM\[XX] |
-| VPC         | CLD-VPC                   |
+| Variable    | Value                               |
+| ----------- | ----------------------------------- |
+| Name        | CLD-DB-SUBNET-GROUP-DEVOPSTEAM\[XX] |
+| Description | CLD-DB-SUBNET-GROUP-DEVOPSTEAM\[XX] |
+| VPC         | CLD-VPC                             |
 
 ```
 [INPUT]
@@ -84,6 +84,8 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 [OUTPUT]
 //TODO
 ```
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
 
 ### **Step 2: Create a new security group for the RDS instance**
 
