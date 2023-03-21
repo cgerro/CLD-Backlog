@@ -48,7 +48,7 @@ description: This page describes the Part II of the Labo 2
 //TODO
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
 
 ### **Step 1: Create DB subnet group**
 
@@ -89,10 +89,15 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 
 ### **Step 2: Create a new security group for the RDS instance**
 
-| Rule                 | Value                                                                                              |
-| -------------------- | -------------------------------------------------------------------------------------------------- |
-| Name                 | <mark style="color:red;">CLD-SG-DEVOPSTEAM\[XX]\_RDS</mark>                                        |
-| Rule for SQL Traffic | <ul><li>Port range: 3306</li><li>Protocol: TCP</li><li>Source: Private Subnet e-south-1a</li></ul> |
+{% hint style="info" %}
+Go back to the VPC config panel !
+{% endhint %}
+
+| Rule                 | Value                                                                                                                                                       |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                 | <mark style="color:red;">CLD-SG-PRIVATE-DEVOPSTEAM\[XX]-RDS</mark>                                                                                          |
+| Description          | Same as name value                                                                                                                                          |
+| Rule for SQL Traffic | <p>[INBOUND]</p><ul><li>Port range: 3306</li><li>Protocol: TCP</li><li>Source: Private Subnet e-south-1a + 1b</li></ul><p>[OUTBOUND]<br>No restrictions</p> |
 
 ```
 [INPUT]
