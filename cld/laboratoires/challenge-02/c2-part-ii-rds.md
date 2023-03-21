@@ -116,17 +116,18 @@ Go back to the VPC config panel !
 **Issue 2: accessibility problem for the sql user created with the CLI.**
 {% endhint %}
 
-| Variable               | Value                                                                                                                                                                                                                  |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Engine                 | Please refer to your Drupal version                                                                                                                                                                                    |
-| Template               | Dev / Test                                                                                                                                                                                                             |
-| DB instance identifier | DBINS-DEVOPSTEAMS\[XX]-RDS-DRUPAL                                                                                                                                                                                      |
-| DB User                | admin                                                                                                                                                                                                                  |
-| DB Password            | \[pwd]                                                                                                                                                                                                                 |
-| DB instance class      | <ul><li>Burstable classes</li><li>db.t3.micro</li></ul>                                                                                                                                                                |
-| Storage                | <ul><li>Storage type: General Purpose (SSD)</li><li>Allocated Storage: 20 GB</li><li>Storage Autoscalling: unchecked</li></ul>                                                                                         |
-| Connectivity           | <ul><li>VPC: <mark style="color:red;">VPC-CLD</mark></li><li>Subnet Group: The one created just before</li><li>Public access: No</li><li>VPC security group: use existing</li><li>Availability zone : A Zone</li></ul> |
-| Additionnal option     | Disable autobackup                                                                                                                                                                                                     |
+| Variable                  | Value                                                                                                                                                                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Engine                    | Please refer to your Drupal version                                                                                                                                                                                    |
+| Template                  | Dev / Test                                                                                                                                                                                                             |
+| DB instance identifier    | DBINS-DEVOPSTEAMS\[XX]-RDS-DRUPAL                                                                                                                                                                                      |
+| DB User                   | admin                                                                                                                                                                                                                  |
+| DB Password               | \[pwd]                                                                                                                                                                                                                 |
+| DB instance class         | <ul><li>Burstable classes</li><li>db.t3.micro</li></ul>                                                                                                                                                                |
+| Storage                   | <ul><li>Storage type: General Purpose (SSD)</li><li>Allocated Storage: 20 GB</li><li>Enable Storage Autoscalling: unchecked</li></ul>                                                                                  |
+| Availability & durability | <ul><li>Do not create a standby instance</li></ul>                                                                                                                                                                     |
+| Connectivity              | <ul><li>VPC: <mark style="color:red;">VPC-CLD</mark></li><li>Subnet Group: The one created just before</li><li>Public access: No</li><li>VPC security group: use existing</li><li>Availability zone : A Zone</li></ul> |
+| Additionnal option        | Disable autobackup                                                                                                                                                                                                     |
 
 {% hint style="info" %}
 Disable Monitoring option
@@ -136,7 +137,20 @@ Disable Monitoring option
 Disable all Additional configuration options
 {% endhint %}
 
-### **Step 4: Test connection**
+### Step 4 : Deploy Drupal Instance
+
+* Based on the previous AMI build, deploy a Drupal instance.
+
+| Variable          | Value                               |
+| ----------------- | ----------------------------------- |
+| Name              | CLD-INSTANCE-DEVOPSTEAM\[XX]-DRUPAL |
+| Type              | t3.micro                            |
+| Availability Zone | eu-south-1a                         |
+| Private Ip        | 10.0.\[XX].10                       |
+| Security Group    | CLD-SG-PRIVATE-DEVOPSTEAM\[XX]      |
+| Key Name          | CLD-KEY-DEVOPTEAM\[XX]-DRUPAL       |
+
+### **Step 5 : Test connection**
 
 * Get the RDS endpoint
 * Test that the Drupal machine can connect to the RDS with the command:
@@ -153,7 +167,7 @@ If you have a prompt with `mysql>` it means that it worked
 //TODO
 ```
 
-### **Step 5: Migrate DB**
+### **Step 6 : Migrate DB**
 
 * (In prod, you should inform end user for maintenance)
 * Clean active sessions
@@ -194,7 +208,7 @@ mysqldump --add-drop-table --no-tablespaces --user=drupal --password=<mysql_loca
 //TODO
 ```
 
-### **Step 6 : Create a custom virtual machine image**
+### **Step 7 : Create a custom virtual machine image**
 
 * In the EC2 console bring up the Instances panel and select the Drupal master instance.
 * Bring up the context menu and select Image > Create Image. Provide the following answers (leave any field not mentioned at its default value):
@@ -211,15 +225,15 @@ mysqldump --add-drop-table --no-tablespaces --user=drupal --password=<mysql_loca
 
 ### Conceptual aspects
 
-Question 1 - Standard vs Memory-optimized vs Burstable?
+#### Question 1 - Standard vs Memory-optimized vs Burstable?
 
 ![](../../../.gitbook/assets/DBInstanceClass.PNG)
 
-Question 2 - What's a Standby instance?
+#### Question 2 - What's a Standby instance?
 
 ![](../../../.gitbook/assets/AvailabilityAndDurability.PNG)
 
-Question 3 - How to prove the correct operation of the RDS?
+#### Question 3 - How to prove the correct operation of the RDS?
 
 ```
 [INPUT]
