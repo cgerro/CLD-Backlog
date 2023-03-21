@@ -48,6 +48,8 @@ description: This page describes the Part II of the Labo 2
 //TODO
 ```
 
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Result expected</p></figcaption></figure>
+
 ### **Step 1: Create DB subnet group**
 
 {% hint style="info" %}
