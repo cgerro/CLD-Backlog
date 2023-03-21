@@ -8,7 +8,7 @@ description: This page describes the Part II of the Labo 2
 
 ****[**AWS Official Doc**](https://aws.amazon.com/rds/)****
 
-## Prerequisites
+### Prerequisites
 
 * [ ] Create an AMI of your Drupal Instance (CLD-INSTANCE-DEVTEAM\[XX])
 
