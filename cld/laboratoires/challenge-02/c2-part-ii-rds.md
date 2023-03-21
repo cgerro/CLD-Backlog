@@ -123,6 +123,10 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 Disable Monitoring option
 {% endhint %}
 
+{% hint style="info" %}
+Disable all Additional configuration options
+{% endhint %}
+
 ### **Step 4: Test connection**
 
 * Get the RDS endpoint
@@ -131,6 +135,13 @@ Disable Monitoring option
 ```
 mysql --host=endpoint_address --user=<rds_master_username> --password=<rds_master_password>`
 If you have a prompt with `mysql>` it means that it worked
+```
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
 ```
 
 ### **Step 5: Migrate DB**
@@ -145,21 +156,49 @@ CREATE USER 'rds_admin'@'%' IDENTIFIED BY '<rds_admin_password>';
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES ON drupal.* TO 'rds_admin'@'%';
 ```
 
-* Disconnect from rds and use this command to migrate data from local database to the rds
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
+* Disconnect from RDS and use this command to migrate data from local database to the rds
 
 ```shell
 mysqldump --add-drop-table --no-tablespaces --user=drupal --password=<mysql_local_password> drupal | mysql --host=endpoint_address --user=<rds_admin_password> --password=<rds_admin_password> drupal
 ```
 
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * Edit the database settings in file `/var/www/html/drupal/sites/default/settings.php`
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
 
 ### **Step 6 : Create a custom virtual machine image**
 
 * In the EC2 console bring up the Instances panel and select the Drupal master instance.
 * Bring up the context menu and select Image > Create Image. Provide the following answers (leave any field not mentioned at its default value):
-* Image Name: CLDGRPXX-RDS-DRUPAL-AMI.
+* Image Name: DEVOPSTEAM\[XX]-RDS-DRUPAL-AMI.
 * Image Description: Drupal connected to RDS database.
 * Click Create Image. The instance will shut down temporarily and the image will be created.
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
 
 ### Conceptual aspects
 
@@ -172,3 +211,10 @@ Question 2 - What's a Standby instance?
 ![](../../../.gitbook/assets/AvailabilityAndDurability.PNG)
 
 Question 3 - How to prove the correct operation of the RDS?
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
