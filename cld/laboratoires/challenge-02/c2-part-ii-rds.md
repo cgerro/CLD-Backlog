@@ -2,7 +2,7 @@
 description: This page describes the Part II of the Labo 2
 ---
 
-# C2 - RDS - 2tiers
+# C1 - RDS
 
 ## Create and migrate a database using the Relational Database Service (RDS)
 
@@ -11,11 +11,42 @@ description: This page describes the Part II of the Labo 2
 ## Prerequisites
 
 * [ ] Create an AMI of your Drupal Instance (CLD-INSTANCE-DEVTEAM\[XX])
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * [ ] Terminate your instance
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * [ ] Delete your private subnet
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * [ ] Create two new subnets sharing the ip range like this
   * [ ] 10.0.\[XX].0/28 -> eu-south-1a -> <mark style="color:red;">CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_A</mark>
   * [ ] 10.0.\[XX].128/28 -> eu-south-1b -> <mark style="color:red;">CLD-SUBNET-PRIVATE-DEVOPSTEAM\[XX]\_B</mark>
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
 
 ### **Step 1: Create DB subnet group**
 
@@ -31,6 +62,13 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 | Description | CLD-DBSUBNET-DEVTEAM\[XX] |
 | VPC         | CLD-VPC                   |
 
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 * Add subnets
 
 | Variable          | Value                                                                                   |
@@ -38,12 +76,26 @@ Go to AWS "RDS MANAGEMENT CONSOLE"
 | Availabilily zone | eu-south-1a + eu-south-1b                                                               |
 | Subnets           | <ul><li>10.0.[XX].0/28 -> eu-south-1a</li><li>10.0.[XX].128/28 -> eu-south-1b</li></ul> |
 
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
+
 ### **Step 2: Create a new security group for the RDS instance**
 
 | Rule                 | Value                                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------------------- |
 | Name                 | <mark style="color:red;">CLD-SG-DEVOPSTEAM\[XX]\_RDS</mark>                                        |
 | Rule for SQL Traffic | <ul><li>Port range: 3306</li><li>Protocol: TCP</li><li>Source: Private Subnet e-south-1a</li></ul> |
+
+```
+[INPUT]
+//TODO
+[OUTPUT]
+//TODO
+```
 
 ### **Step 3: Create a database**
 
